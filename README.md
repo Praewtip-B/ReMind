@@ -5,7 +5,6 @@ Players select categories or attributes and try to generate as many valid words 
 
 The app supports both English and Thai languages and is designed with a clean, minimal UI.
 
----
 
 ## Features
 
@@ -16,7 +15,6 @@ The app supports both English and Thai languages and is designed with a clean, m
 - Responsive, minimal UI
 - Keyboard-free, tap-friendly gameplay
 
----
 
 ## Language support
 
@@ -27,4 +25,3 @@ You can switch languages at the home page using the language toggle.
 
 All UI text and game data updates dynamically based on the selected language.
 
----
