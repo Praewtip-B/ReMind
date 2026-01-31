@@ -25,4 +25,4 @@ You can switch languages at the home page using the language toggle.
 
 All UI text and game data updates dynamically based on the selected language.
 
-[For Development notes, click here](DEV_NOTES.md)
+[For development notes, click here](DEV_NOTES.md)
