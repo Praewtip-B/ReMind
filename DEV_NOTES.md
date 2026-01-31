@@ -1,4 +1,3 @@
-```md
 # Development notes
 
 This document outlines technical challenges faced during development and how they were resolved.
