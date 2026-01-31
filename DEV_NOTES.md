@@ -13,7 +13,7 @@ The timer effect depended on the state that was changing during button clicks, c
 - **Solution:**  
 Decoupled the timer logic from UI interactions by using a stable interval and functional state updates.
 
-## Page Navigation Issues
+## Page navigation issues
 - **Problem:**  
 Buttons appeared unresponsive, or pages failed to render.
 
@@ -23,7 +23,7 @@ State-based navigation relied on mismatched page keys.
 - **Solution:**  
 Standardized page names and centralized navigation logic in `App.jsx`.
 
-## Language Toggle Integration
+## Language toggle integration
 - **Problem:**  
 UI text and game data need to change together when switching languages.
 
