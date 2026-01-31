@@ -39,4 +39,6 @@ The timer continues running until the target is reached, and the final result is
 - Idle hint system
 If no interaction occurs for a set duration (e.g., 30 seconds), provide a hint to help the user continue.
 
-[For development notes, click here](DEV_NOTES.md)
+## Additionals
+- [How to play?](INSTRUCTION.md)
+- [Development notes](DEV_NOTES.md)
