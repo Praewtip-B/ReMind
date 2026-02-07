@@ -13,7 +13,7 @@ The timer effect depended on the state that was changing during button clicks, c
 Decoupled the timer logic from UI interactions by using a stable interval and functional state updates.
 
 ## Page navigation issues
-- **Problem:**  
+- Problem:
 Buttons appeared unresponsive, or pages failed to render.
 
 - Cause: 
