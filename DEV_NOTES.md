@@ -1,8 +1,8 @@
 # Development notes
 
-This document outlines technical challenges faced during development and how they were resolved.
+This note documents technical challenges faced during development and how they were resolved.
 
-## Timer freezing when spam button
+## Timer freezing when user spams the button
 - Problem: 
 The countdown timer stopped when the user rapidly clicked the increment button.
 
@@ -10,21 +10,16 @@ The countdown timer stopped when the user rapidly clicked the increment button.
 The timer effect depended on the state that was changing during button clicks, causing the interval to reset.
 
 - Solution:  
-Decoupled the timer logic from UI interactions by using a stable interval and functional state updates.
-
-## Page navigation issues
-- Problem:
-Buttons appeared unresponsive, or pages failed to render.
-
-- Cause: 
-State-based navigation relied on mismatched page keys.
+Used useRef to capture the latest score for the onTimeout callback without making the timer dependent on the count state
+## Import statements fail
+- Problem: The import statements fail to recognize a file name change due to case-insensitive filesystems.
 
 - Solution:
-Standardized page names and centralized navigation logic in `App.jsx`.
+  Slightly rename the file to something different but still recognizable.
 
-## Language toggle integration
+## Language toggle 
 - Problem:  
 UI text and game data need to change together when switching languages.
 
 - Solution:
-Separated UI strings from game data and passed the selected language down through props.
+Instead of hardcoding the text like before, use manual JSON imports
