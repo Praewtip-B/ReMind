@@ -1,7 +1,10 @@
 # ReMind
-ReMind is a fast-paced word association game built with React and Vite.  
-Players select categories or attributes and try to generate as many valid words as possible before time runs out.
-The app supports both English and Thai languages and is designed with a clean, minimal UI.
+ReMind is a fast-paced word association game built with React and Vite. Designed with a clean, minimal UI, it challenges players to generate as many valid words as possible within a set time limit across various categories and attributes.
+
+## Background & Inspiration
+The game mechanics for ReMind are based on speech therapy exercises for stroke recovery, specifically the ones given to my dad.
+
+Doing these on paper was a bit rough on everyone; it was messy to track, and I noticed my dad didn't really enjoy doing them. So I built this app to handle the timer and the scoring so we could just focus on the game. Since switching to the app, he seems much more eager to practice, and it’s made the whole process easier for the family. While it’s just a simple tool, I'm sharing it in hopes that it might make things a little easier for someone else in the same situation.
 
 ## How to Play
 
