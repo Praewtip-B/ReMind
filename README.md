@@ -4,7 +4,9 @@ ReMind is a fast-paced word association game built with React and Vite. Designed
 ## Background & Inspiration
 The game mechanics for ReMind are based on speech therapy exercises for stroke recovery, specifically the ones given to my dad.
 
-Doing these on paper was a bit rough on everyone; it was messy to track, and I noticed my dad didn't really enjoy doing them. So I built this app to handle the timer and the scoring so we could just focus on the game. Since switching to the app, he seems much more eager to practice, and it’s made the whole process easier for the family. While it’s just a simple tool, I'm sharing it in hopes that it might make things a little easier for someone else in the same situation.
+Doing these on paper was a bit rough on everyone; it was messy to track, and I noticed my dad didn't really enjoy doing them. So I built this app to handle the timer and the scoring so we could just focus on the game. Since switching to the app, he seems much more eager to practice, and it’s made the whole process easier for the family. 
+
+While it’s just a simple tool, I'm sharing it in hopes that it might make things a little easier for someone else in the same situation.
 
 ## How to Play
 
